@@ -1,8 +1,11 @@
+import './routes';
+import Routes from './routes';
+
 function App() {
   return (
-    <div className="App">
-      <h1>DuckDuckGo</h1>
-    </div>
+      <div className="App">
+        <Routes/>
+      </div>
   );
 }
 
