@@ -20,4 +20,35 @@ export const Container = styled.div`
         color: #FFF;
         font-size: 27pt;
     }
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 42px;
+
+        input {
+            width: 550px;
+            padding: 10px;
+            font-size: 15pt;
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+            background-color: #333333;
+            color: #FFF;
+        }
+
+        img {
+            max-width: 53px;
+            background-color: #333333;
+            padding: 10px 15px 10px 15px;
+            margin: 0;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            cursor: pointer;
+            
+            &:hover {
+                filter: brightness(150%);
+            }
+        }
+    }
 `;
