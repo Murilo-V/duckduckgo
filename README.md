@@ -6,4 +6,4 @@
 
 ## Deploy
 
-Access the deploy here[https://duckduckgo.vercel.app]
+Access the deploy here: https://duckduckgo.vercel.app
